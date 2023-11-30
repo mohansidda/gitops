@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: getOtp
-    repoURL: 'https://github.com/shailendra14k/gitops.git'
+    repoURL: 'https://github.com/mohansidda/gitops.git'
     targetRevision: HEAD
   syncPolicy:
     automated: {}
