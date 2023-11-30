@@ -7,7 +7,7 @@ spec:
     - name: git-clone
       params:
         - name: url
-          value: 'https://github.com/shailendra14k/Demo.git'
+          value: 'https://github.com/mohansidda/Demo.git'
         - name: revision
           value: ''
         - name: refspec
@@ -200,7 +200,7 @@ spec:
     - name: acs-image-scan
       params:
         - name: rox_central_endpoint
-          value: 'central-stackrox.apps.shailendra14k.in:443'
+          value: 'central-stackrox.apps.rosa-cnn2f.dts3.p1.openshiftapps.com:443'
         - name: rox_api_token
           value: xxxxx
         - name: image
@@ -217,7 +217,7 @@ spec:
     - name: git-update-deployment
       params:
         - name: GIT_REPOSITORY
-          value: 'https://github.com/shailendra14k/gitops.git'
+          value: 'https://github.com/mohansidda/gitops.git'
         - name: GIT_USERNAME
           value: xxxxx
         - name: GIT_PASSWORD
